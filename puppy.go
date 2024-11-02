@@ -11,3 +11,7 @@ func Barks() string {
 	return "WOOF WOOF!"
 
 }
+
+func BigBark() string {
+	return dog.WhenGrownUp(Barks())
+}
